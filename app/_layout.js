@@ -20,7 +20,7 @@ const Layout = () => {
     }, [FontsLoaded])
 
     if (!FontsLoaded) return null;
-    
+
     return <Stack onLayout={onLayoutRootView} />
 }
 
